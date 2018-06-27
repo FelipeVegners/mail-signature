@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather+Sans:700|Merriweather:900|Open+Sans:300,400,700');
+
+body,
+html,
+input {
+    font-family: 'Open Sans' !important;
+}
+
+a, a:link {
+    color: red !important;
+}
+
+.form-control::-webkit-input-placeholder {
+    font-size: 14px;
+    color: rgba(73, 80, 87, .4) !important;
+}
+.form-control::-moz-placeholder {
+    font-size: 14px;
+    color: rgba(73, 80, 87, .4) !important;
+}
+.form-control:-ms-input-placeholder {
+    font-size: 14px;
+    color: rgba(73, 80, 87, .4) !important;
+}
+.form-control:-moz-placeholder {
+    font-size: 14px;
+    color: rgba(73, 80, 87, .4) !important;
+}
+.custom-file-label {
+    font-size: 14px;
+    color: rgba(73, 80, 87, .4) !important;
+}

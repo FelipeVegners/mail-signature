@@ -1,0 +1,1 @@
+$("#font-size, #image-size, #image-shape").slider(),$("#signature-source-code").val("oi");

@@ -1,0 +1,21 @@
+
+#main-header {
+    position: relative;
+    background: $main-color;
+    padding: 0.5rem 0;
+}
+
+#tool-header {
+    background: $second-color;
+    padding: 1rem 0;
+
+    & img {
+        margin-right: 1rem;
+    }
+
+    & h2 {
+        margin: 0;
+        font: normal 400 20px/1.5 'Open Sans';
+        color: #f2f2f2;
+    }
+}

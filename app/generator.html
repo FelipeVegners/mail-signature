@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Ferramenta Gerador de Assinatura de Email | Resultados Digitais</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/css/bootstrap-slider.min.css"> -->
+  <link href="css/third/bootstrap-slider.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+
+
+</head>
+
+<body>
+  <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+  <!-- HEADER -->
+  <header id="main-header">
+    <div class="container text-center">
+      <h1 class="rd-logo-horizontal">Resultados Digitais</h1>
+    </div>
+  </header>
+  <!-- END HEADER -->
+
+  <!-- TOOL HEADER -->
+  <section id="tool-header">
+    <div class="container">
+      <div class="d-flex flex-row">
+        <img class='tool-icon' src="images/icons/id-card.svg" alt="">
+        <h2>Gerador de assinatura de email</h2>
+      </div>
+    </div>
+  </section>
+  <!-- END TOOL HEADER -->
+
+  <!-- TOOL CONTAINER -->
+  <section id="tool-container">
+    <div class="container">
+      <div class="row tool-body">
+        <div class="col-md-6">
+          <nav>
+            <div class="nav nav-tabs" id="nav-tab" role="tablist">
+              <a class="nav-item nav-link active" id="nav-general-tab" data-toggle="tab" href="#nav-general" role="tab" aria-controls="nav-general"
+                aria-selected="true">Geral</a>
+              <a class="nav-item nav-link" id="nav-contacts-tab" data-toggle="tab" href="#nav-contacts" role="tab" aria-controls="nav-contacts"
+                aria-selected="false">Contatos</a>
+              <a class="nav-item nav-link" id="nav-images-tab" data-toggle="tab" href="#nav-images" role="tab" aria-controls="nav-images"
+                aria-selected="false">Imagens</a>
+              <a class="nav-item nav-link" id="nav-social-tab" data-toggle="tab" href="#nav-social" role="tab" aria-controls="nav-social"
+                aria-selected="false">Social</a>
+              <a class="nav-item nav-link" id="nav-design-tab" data-toggle="tab" href="#nav-design" role="tab" aria-controls="nav-design"
+                aria-selected="false">Design</a>
+            </div>
+          </nav>
+          <div class="tab-content" id="nav-tabContent">
+
+            <div class="tab-pane fade show active" id="nav-general" role="tabpanel" aria-labelledby="nav-general-tab">
+              <form id="tab-general">
+                  <a href="#" class="fa fa-linkedin linkedin-btn">Importar dados</a>
+                <div class="form-group row">
+                  <label for="name" class="col-sm-3 col-form-label">Nome</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="name">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="email" class="col-sm-3 col-form-label">Email</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="email">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="company" class="col-sm-3 col-form-label">Empresa</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="company">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="occupation" class="col-sm-3 col-form-label">Cargo</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="occupation">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="department" class="col-sm-3 col-form-label">Departamento</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="department">
+                  </div>
+                </div>
+                <hr>
+                <a href="#" class="add-custom-field">+ Add campo personalizado (3)</a>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="nav-contacts" role="tabpanel" aria-labelledby="nav-contacts-tab">
+              <form id="tab-contacts">
+                <div class="form-group row">
+                  <label for="address" class="col-sm-3 col-form-label">Endereço</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="address">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="phone" class="col-sm-3 col-form-label">Telefone</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="phone" placeholder="(00) 0000-0000">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="mobile" class="col-sm-3 col-form-label">Celular</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="mobile" placeholder="(00) 00000-0000">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="skype" class="col-sm-3 col-form-label">Skype</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="skype">
+                  </div>
+                </div>
+                <div class="form-group row">
+                  <label for="website" class="col-sm-3 col-form-label">Website</label>
+                  <div class="col-sm-9">
+                    <input type="text" class="form-control" id="website">
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="nav-images" role="tabpanel" aria-labelledby="nav-images-tab">
+              <form id="tab-images">
+                <div class="form-group">
+                  <label>Imagem / Logotipo</label>
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="image-brand">
+                    <label class="custom-file-label" for="image-brand">Selecione um arquivo...</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="image-brand-link">Link do seu logo</label>
+                  <input type="text" class="form-control" id="image-brand-link" placeholder="http://www.rdstation.com">
+                </div>
+                <div class="form-group">
+                  <label>Imagem / Logotipo</label>
+                  <div class="custom-file">
+                    <input type="file" class="custom-file-input" id="image-banner">
+                    <label class="custom-file-label" for="image-banner">Selecione um arquivo...</label>
+                  </div>
+                </div>
+                <div class="form-group">
+                  <label for="banner-link">Link do seu banner</label>
+                  <input type="text" class="form-control" id="banner-link" placeholder="http://www.rdstation.com/blog">
+                </div>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="nav-social" role="tabpanel" aria-labelledby="nav-social-tab">
+              <form id="tab-social">
+                <div class="form-group">
+                  <label for="social-caption">Caption</label>
+                  <input type="text" class="form-control" id="social-caption" placeholder="ex.: Siga-nos">
+                </div>
+                <hr>
+                <div class="row social-icon-list">
+                  <div class="col-md-12 d-flex justify-content-between">
+                    <a href="#" class="social-icon" data-name="Linkedin">
+                      <img src="images/icons/social-icons/linkedin.svg" alt="Linkedin" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/facebook.svg" alt="Facebook" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/instagram.svg" alt="Instagram" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/googleplus.svg" alt="Google Plus" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/twitter.svg" alt="Twitter" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/youtube.svg" alt="Youtube" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/behance.svg" alt="Behance" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/vimeo.svg" alt="Vimeo" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/pinterest.svg" alt="Pinterest" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/dribbble.svg" alt="Dribbble" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/github.svg" alt="Github" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/stackoverflow.svg" alt="Stackoverflow" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/medium.svg" alt="Medium" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/flickr.svg" alt="Flickr" width="24px">
+                    </a>
+                    <a href="#" class="social-icon">
+                      <img src="images/icons/social-icons/wordpress.svg" alt="Wordpress" width="24px">
+                    </a>
+                  </div>             
+                </div>
+                <hr>
+                <div class="form-group">
+                  <label for="social-caption">Editar ordem</label>
+                  <div class="col-md-12 col-xs-12">
+                    <ul class="social-active-list list-inline">
+                      <li data-name="facebook" draggable="true" class="d-flex align-items-center drag-to-order">
+                        <div class="social-logo">
+                          <img src="images/icons/social-icons/linkedin.svg" class="social-icon" alt="Linkedin" width="24px">
+                        </div>
+                        <input type="text" name="" id="" class="form-control" placeholder="https://www.linkedin.com/company/id">
+                        <i class="fa fa-close text-danger"></i>
+                        <span class="fa fa-sort text-muted"></span>
+                      </li>
+                      <li data-name="" draggable="true" class="d-flex align-items-center drag-to-order">
+                        <div class="social-logo">
+                            <img src="images/icons/social-icons/facebook.svg" class="social-icon" alt="Facebook" width="24px">
+                        </div>
+                        <input type="text" name="" class="form-control" id="" placeholder="https://www.facebook.com/id">
+                        <i class="fa fa-close text-danger"></i>
+                        <span class="fa fa-sort text-muted"></span>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </form>
+            </div>
+            <div class="tab-pane fade" id="nav-design" role="tabpanel" aria-labelledby="nav-design-tab">
+              <div class="row">
+                <div class="col-md-12 col-sm-12 text-center">
+                  <button type="button" name="button" class="btn btn-light">Escolher modelo</button>
+                </div>
+              </div>
+              <hr>
+              <div class="form-group">
+                <label>Layout</label>
+              </div>
+              <div class="form-group row">
+                <label for="font-size" class="col-sm-4 col-form-label">Tamanho da fonte</label>
+                <div class="col-sm-8 my-auto">
+                  <input id="font-size" data-slider-id='font-size-slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="4"
+                    data-slider-value="12" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="name-color" class="col-sm-4 col-form-label">Cor do nome</label>
+                <div class="col-sm-8 my-auto">
+                  <input type="color" value="#293D69" id="name-color" class="form-control-color">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="text-color" class="col-sm-4 col-form-label">Cor do texto</label>
+                <div class="col-sm-8 my-auto">
+                  <input type="color" value="#31A2FF" id="text-color" class="form-control-color">
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="font-family" class="col-sm-4 col-form-label">Família da fonte</label>
+                <div class="col-sm-8 input-group">
+                  <select class="custom-select" id="font-family">
+                    <option selected>Escolha...</option>
+                    <option value="1">Arial</option>
+                    <option value="2">Trebuchet</option>
+                    <option value="3">Tahoma</option>
+                    <option value="4">Times New Roman</option>
+                  </select>
+                </div>
+              </div>
+              <hr>
+              <div class="form-group">
+                <label>Imagem</label>
+              </div>
+              <div class="form-group row">
+                <label for="image-size" class="col-sm-4 col-form-label">Tamanho da imagem</label>
+                <div class="col-sm-8 my-auto">
+                  <input id="image-size" data-slider-id='image-size-slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="4"
+                    data-slider-value="12" />
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="image-shape" class="col-sm-4 col-form-label">Formato da imagem</label>
+                <div class="col-sm-8 my-auto">
+                  <input id="image-shape" data-slider-id='image-shape-slider' type="text" data-slider-min="0" data-slider-max="20" data-slider-step="4"
+                    data-slider-value="12" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 preview-wrapper">
+          <div class="col-md-12 preview-header">
+            <p>Preview da sua assinatura de email</p>
+          </div>
+          <div class="row">
+            <div class="container">
+              <div class="col-md-12 preview-body">
+                <p>Para
+                  <span>Paulo Germano</span>
+                </p>
+                <hr>
+                <p>Assunto
+                  <span>Olha só a minha nova assinatura de email</span>
+                </p>
+                <hr>
+                <p class="email-body">Olá, Paulo,
+                  <br> Olha só que legal a minha nova assinatura criada com o Gerador de Assinaturaa de email da Resultados Digitais.
+                  <br>
+                  <br> Saudações,
+                  <br> ——
+                </p>
+                <section class="signature-wrapper">
+                  <table border="0" id="signature-preview" style="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; font-size: 12px; color:#808080; font-weight: 300">
+                    <tr>
+                      <td style="padding: 0 8px 0 0;" valign="top">
+                        <img src="images/avatar.png" class="picture" alt="Sua foto ou logo" style="border-radius: 4px;">
+                      </td>
+                      <td style="padding:0 8px 0 8px">
+                        <table style="margin-bottom: 8px">
+                          <tr>
+                            <td style="font-size: 14px; font-weight: bold; color: #212529">
+                              <span>Felipe Vegners</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span>UI Designer</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span>Creative Services | Marketing</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span>+55 (19) 98264-7827</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#"><span>felipe.vegners@rdstation.com</span></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <a href="#"><span>www.rdstation.com</span></a>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <hr style="margin: 8px 0;">
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span>Siga-nos</span>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <table>
+                                <tr style="font-size: 20px">
+                                  <td style="padding-right: 8px;">
+                                    <img src="images/icons/social-icons/linkedin.svg" alt="Linkedin" width="20px">
+                                  </td>
+                                  <td style="padding-right: 8px;">
+                                    <img src="images/icons/social-icons/facebook.svg" alt="Facebook" width="20px">
+                                  </td>
+                                  <td style="padding-right: 8px;">
+                                    <img src="images/icons/social-icons/instagram.svg" alt="Instagram" width="20px">
+                                  </td>
+                                  <td style="padding-right: 8px;">
+                                    <img src="images/icons/social-icons/googleplus.svg" alt="Google Plus" width="20px">
+                                  </td>
+                                  <td style="padding-right: 8px;">
+                                    <img src="images/icons/social-icons/twitter.svg" alt="Twitter" width="20px">
+                                  </td>
+                                </tr>
+                              </table>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              <span>Crie a sua
+                                <a href="#">própria assinatura</a>
+                              </span>
+                            </td>
+                          </tr>
+                        </table>
+                      </td>
+                    </tr>
+                  </table>
+                </section>
+              </div>
+              <div class="row">
+                <div class="col-md-6"><small class="save-time">Salvo pela última vez: 18:43:03</small></div>
+                <div class="col-md-6 text-right">
+                  <button type="button" class="btn btn-success">Gerar assinatura</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END TOOL CONTAINER -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p>Resultados Digitais 2018 - Todos os direitos reservados</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-slider/10.0.2/bootstrap-slider.min.js"></script>
+  <script src="js/custom.js"></script>
+</body>
+
+</html>

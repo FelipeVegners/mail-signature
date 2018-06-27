@@ -1,0 +1,9 @@
+footer {
+    padding: 1rem 0;
+    background: #e8e8e8;
+
+    & div > p {
+        font: normal 300 14px/1.5 'Open Sans';
+        margin-bottom: 0;
+    }
+}

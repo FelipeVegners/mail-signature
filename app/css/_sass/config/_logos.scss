@@ -1,0 +1,21 @@
+@import '_paths';
+
+.rd-logo-horizontal {
+    position: relative;
+    margin: 0 auto;
+    width: 160px;
+    height: 40px;
+    color: red;
+    text-indent: -9999px;
+    overflow: hidden;
+
+    &::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 160px;
+        height: 40px;
+        background: url($path-horizontal + 'rd_horizontal_branco.svg') center center /contain no-repeat;
+    }
+}

@@ -1,0 +1,21 @@
+// Core
+@import "_sass/bootstrap/bootstrap";
+
+// Configs
+@import "_sass/config/_colors";
+@import "_sass/config/_typography";
+@import "_sass/config/_logos";
+@import "_sass/config/_social-icons";
+
+// Layouts
+@import "_sass/layouts/_header";
+@import "_sass/layouts/_tool-body";
+@import "_sass/layouts/_tabs";
+@import "_sass/layouts/_tool-body-preview";
+@import "_sass/layouts/_preview-section";
+@import "_sass/layouts/_footer";
+
+.insp-border {
+    border: 1px solid red;
+    padding: 1rem;
+}

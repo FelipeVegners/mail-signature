@@ -19,3 +19,7 @@
         background: url($path-horizontal + 'rd_horizontal_branco.svg') center center /contain no-repeat;
     }
 }
+
+.-blue:before {
+        background: url($path-horizontal + 'rd_horizontal_cor.svg') center center /contain no-repeat;
+    }

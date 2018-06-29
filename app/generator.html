@@ -68,6 +68,7 @@
             <div class="tab-pane fade show active" id="nav-general" role="tabpanel" aria-labelledby="nav-general-tab">
               <form id="tab-general">
                   <a href="#" class="fa fa-linkedin linkedin-btn">Importar dados</a>
+                  <a href="#" class="fa fa-facebook facebook-btn">Importar dados</a>
                 <div class="form-group row">
                   <label for="name" class="col-sm-3 col-form-label">Nome</label>
                   <div class="col-sm-9">
@@ -221,25 +222,34 @@
                 <hr>
                 <div class="form-group">
                   <label for="social-caption">Editar ordem</label>
-                  <div class="col-md-12 col-xs-12">
-                    <ul class="social-active-list list-inline">
-                      <li data-name="facebook" draggable="true" class="d-flex align-items-center drag-to-order">
-                        <div class="social-logo">
-                          <img src="images/icons/social-icons/linkedin.svg" class="social-icon" alt="Linkedin" width="24px">
-                        </div>
-                        <input type="text" name="" id="" class="form-control" placeholder="https://www.linkedin.com/company/id">
-                        <i class="fa fa-close text-danger"></i>
-                        <span class="fa fa-sort text-muted"></span>
-                      </li>
-                      <li data-name="" draggable="true" class="d-flex align-items-center drag-to-order">
-                        <div class="social-logo">
-                            <img src="images/icons/social-icons/facebook.svg" class="social-icon" alt="Facebook" width="24px">
-                        </div>
-                        <input type="text" name="" class="form-control" id="" placeholder="https://www.facebook.com/id">
-                        <i class="fa fa-close text-danger"></i>
-                        <span class="fa fa-sort text-muted"></span>
-                      </li>
-                    </ul>
+                  <div class="row">
+                    <div class="col-md-12 col-xs-12">
+                      <ul class="social-active-list list-inline">
+
+                        <li data-name="linkedin" draggable="true" class="social-link">
+                          <div class="d-flex align-items-center">
+                            <div class="social-logo">
+                              <img src="images/icons/social-icons/linkedin.svg" class="social-icon" alt="Linkedin" width="24px">
+                            </div>
+                            <input type="text" name="" id="" class="form-control" placeholder="https://www.linkedin.com/company/id">
+                            <i class="fa fa-close text-danger delete-link"></i>
+                            <span class="fa fa-sort text-muted"></span>
+                          </div>
+                        </li>
+
+                        <li data-name="facebook" draggable="true" class="social-link">
+                          <div class="d-flex align-items-center">
+                            <div class="social-logo">
+                              <img src="images/icons/social-icons/facebook.svg" class="social-icon" alt="Linkedin" width="24px">
+                            </div>
+                            <input type="text" name="" id="" class="form-control" placeholder="https://www.facebook.com/id">
+                            <i class="fa fa-close text-danger delete-link"></i>
+                            <span class="fa fa-sort text-muted"></span>
+                          </div>
+                        </li>
+
+                      </ul>
+                    </div>
                   </div>
                 </div>
               </form>

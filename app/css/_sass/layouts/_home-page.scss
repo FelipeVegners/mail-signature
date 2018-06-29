@@ -1,0 +1,34 @@
+// Styles for Home / Landing Page
+
+// Clear header for color RD logo
+.-clear {
+    //@extend #main-header;
+    background: #fff !important;
+}
+
+.hero-wrapper {
+    height: calc(100vh - (56px + 53px)); //Header + Footer heigh
+}
+
+.badge-title {
+    background: $second-color;
+    padding: 4px 8px;
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+.tool-title {
+    font: normal 900 40px/1.2 'Merriweather Sans';
+    color: $main-color;
+    margin: 1.5rem 0;
+}
+
+.cta-start {
+    background: $main-color;
+    color: #fff !important;
+    padding: 0.875rem 1.5rem !important;
+    margin-top: 1.5rem;
+    &:hover {
+        background: lighten($main-color, 10%)
+    }
+}

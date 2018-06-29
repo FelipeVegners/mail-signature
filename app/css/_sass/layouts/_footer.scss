@@ -3,7 +3,8 @@ footer {
     background: #e8e8e8;
 
     & div > p {
-        font: normal 300 14px/1.5 'Open Sans';
+        font: normal 300 12px/1.5 'Open Sans';
         margin-bottom: 0;
+        opacity: .5;
     }
 }

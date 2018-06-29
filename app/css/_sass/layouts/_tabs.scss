@@ -3,20 +3,21 @@
 // Tab Geral
 a.linkedin-btn {
     background: hsl(201, 100%, 35%);
-    padding: 0 0.95rem;
+    padding: 0 .95rem;
     margin-bottom: 2rem;
-    font: normal 400 16px/2.5 'Open Sans';
+    margin-right: 1rem;
+    font: normal 400 14px/2 'Open Sans';
     color: #fff !important;
     border-radius: 3px;
-    border-bottom: 3px solid hsl(201, 100%, 28%);
+    border-bottom: 2px solid hsl(201, 100%, 28%);
     cursor: pointer;
     transition: all .25s ease-in-out;
 
     &:before {
         display: inline-block;
         position: relative;
-        height: calc(2.5rem + 3px);
-        font: normal 300 18px/2.5 'Fontawesome';
+        height: calc(2rem + 2px);
+        font: normal 300 18px/2 'Fontawesome';
         color: #fff !important;
         padding-right: 1rem;
         border-right: 1px solid hsl(201, 100%, 28%);
@@ -29,6 +30,37 @@ a.linkedin-btn {
     &:hover {
         text-decoration: none;
         background: hsl(201, 100%, 33%);
+    }
+}
+
+a.facebook-btn {
+    background: hsl(221, 44%, 41%);
+    padding: 0 .95rem;
+    margin-bottom: 2rem;
+    font: normal 400 14px/2 'Open Sans';
+    color: #fff !important;
+    border-radius: 3px;
+    border-bottom: 2px solid hsl(221, 44%, 31%);
+    cursor: pointer;
+    transition: all .25s ease-in-out;
+
+    &:before {
+        display: inline-block;
+        position: relative;
+        height: calc(2rem + 2px);
+        font: normal 300 18px/2 'Fontawesome';
+        color: #fff !important;
+        padding-right: 1rem;
+        border-right: 1px solid hsl(221, 44%, 31%);
+        margin-right: 1rem;
+    }
+
+    &:before:hover {
+        text-decoration: none;
+    }
+    &:hover {
+        text-decoration: none;
+        background: hsl(221, 44%, 45%);
     }
 }
 
@@ -49,15 +81,20 @@ a.linkedin-btn {
     margin-right: 0.5rem;
     }
 }
-.drag-to-order {
-    margin: 1rem 0;
+.social-link {
+    margin: 0 0 1rem 0;
 }
-i.fa-close {
+i.delete-link {
     position: relative;
     left: -1.5rem;
-    opacity: .4;
+    opacity: 0;
     cursor: pointer;
+    transition: opacity .2s ease-in;
 }
 span.fa-sort {
     cursor: ns-resize;
+}
+
+.social-link:hover .delete-link {
+    opacity: 1;
 }
